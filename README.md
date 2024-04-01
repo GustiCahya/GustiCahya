@@ -15,7 +15,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-![YourGitHubUsername's GitHub stats](https://github-readme-stats.vercel.app/api?username=YourGitHubUsername&show_icons=true&theme=radical)
+![YourGitHubUsername's GitHub stats](https://github-readme-stats.vercel.app/api?username=GustiCahya&show_icons=true&theme=radical)
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=YourGitHubUsername)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](https://github-profile-trophy.vercel.app/?username=GustiCahya)](https://github.com/ryo-ma/github-profile-trophy)
 
