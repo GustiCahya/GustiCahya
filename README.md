@@ -14,8 +14,3 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-
-![YourGitHubUsername's GitHub stats](https://github-readme-stats.vercel.app/api?username=GustiCahya&show_icons=true&theme=radical)
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=GustiCahya)](https://github.com/ryo-ma/github-profile-trophy)
-
