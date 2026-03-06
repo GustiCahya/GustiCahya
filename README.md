@@ -30,10 +30,9 @@ I am a dedicated **Front-end Developer** specializing in the **JavaScript (ES6+)
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=GustiCahya&show_icons=true&theme=tokyonight" alt="Gusti's GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=GustiCahya&layout=compact&theme=tokyonight" alt="Top Languages" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=GustiCahya&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&cache_seconds=1800" alt="Gusti's GitHub Stats" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GustiCahya&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&cache_seconds=1800" alt="Top Languages" />
 </p>
-
 ---
 
 ### 📫 Connect with Me
