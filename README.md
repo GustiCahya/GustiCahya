@@ -16,25 +16,6 @@ I am a dedicated **Front-end Developer** specializing in the **JavaScript (ES6+)
 | **State & Data** | ![Redux](https://img.shields.io/badge/Redux-764ABC?style=flat-square&logo=redux&logoColor=white) ![React Query](https://img.shields.io/badge/React_Query-FF4154?style=flat-square&logo=react-query&logoColor=white) ![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white) ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white) |
 | **Tools** | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white) ![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white) |
 
----
-
-### 🌟 Selected Works
-
-- 🏗️ **[Tradexa](https://github.com/GustiCahya/tradexa)** - High-end trading journal with **Next.js**, **Neon**, and **Prisma**.
-- 👗 **[Adalene Fashion](https://github.com/GustiCahya/adalene-react)** - Sleek e-commerce management platform built with **React** and **SCSS**.
-- ✈️ **[Cahya Lombok Travel](https://github.com/GustiCahya/cahyalomboktravel)** - Performance-optimized travel agency site built with **Hugo**.
-- 🐍 **[Snake Game](https://github.com/GustiCahya/SnakeGame)** - Interactive web game demonstrating **HTML5 Canvas** logic.
-
----
-
-### 📊 GitHub Stats
-
-<p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=GustiCahya&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&cache_seconds=1800" alt="Gusti's GitHub Stats" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GustiCahya&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&cache_seconds=1800" alt="Top Languages" />
-</p>
----
-
 ### 📫 Connect with Me
 
 - 💼 [LinkedIn](https://www.linkedin.com/in/gusti-bagus-cahya-utama/)
