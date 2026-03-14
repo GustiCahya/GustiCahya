@@ -92,8 +92,8 @@ export default function Home() {
                 {
                   title: 'Tradexa Flutter app',
                   desc: 'A mobile trading journal application built with Flutter, designed to help traders monitor their results, evaluate psychological and performance errors, and refine their competitive advantage.',
-                  live: 'https://github.com/GustiCahya/tradexa-flutter',
-                  code: 'https://github.com/GustiCahya/tradexa-flutter',
+                  live: 'https://github.com/GustiCahya/tradexa-flutter-app',
+                  code: 'https://github.com/GustiCahya/tradexa-flutter-app',
                   tags: ['Flutter', 'Riverpod', 'Isar']
                 },
                 // {
