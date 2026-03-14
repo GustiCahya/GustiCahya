@@ -81,20 +81,7 @@ export default function Home() {
             </motion.p>
 
             <div className="grid grid-cols-2">
-              {[ {
-                  title: 'Cahya Lombok Travel',
-                  desc: 'A professional travel agency website, featuring optimized performance for showcasing tour packages and exploring the beauty of Lombok.',
-                  live: 'https://cahyalomboktravel2.netlify.app/',
-                  code: 'https://github.com/GustiCahya/cahyalomboktravel',
-                  tags: ['Hugo']
-                },
-                {
-                  title: 'Adalene Fashion Platform',
-                  desc: 'A sleek e-commerce landing page and management system for resellers and retailers, focused on modern aesthetics and seamless user experience.',
-                  live: 'https://adalene-e6ca8.web.app/',
-                  code: 'https://github.com/GustiCahya/adalene-react',
-                  tags: ['React', 'Node.js', 'SCSS']
-                },
+              {[
                 {
                   title: 'Tradexa',
                   desc: 'Designed for committed traders, Tradexa is a high-end trading journal. Monitor results, evaluate psychological and performance errors, and refine competitive advantage.',
@@ -103,12 +90,26 @@ export default function Home() {
                   tags: ['Next.js', 'Tailwind CSS', 'Neon', 'Prisma', 'NextAuth.js', 'Recharts', 'Lucide React']
                 },
                 {
-                  title: 'Snake Game',
-                  desc: 'An interactive and fun web-based game featuring smooth logic and classic gameplay, built to demonstrate HTML5 Canvas programming and state management in JavaScript.',
-                  live: 'https://ular.netlify.app/',
-                  code: 'https://github.com/GustiCahya/SnakeGame',
-                  tags: ['Javascript']
-                }
+                  title: 'Tradexa Flutter app',
+                  desc: 'A mobile trading journal application built with Flutter, designed to help traders monitor their results, evaluate psychological and performance errors, and refine their competitive advantage.',
+                  live: 'https://github.com/GustiCahya/tradexa-flutter',
+                  code: 'https://github.com/GustiCahya/tradexa-flutter',
+                  tags: ['Flutter', 'Riverpod', 'Isar']
+                },
+                // {
+                //   title: 'Cahya Lombok Travel',
+                //   desc: 'A professional travel agency website, featuring optimized performance for showcasing tour packages and exploring the beauty of Lombok.',
+                //   live: 'https://cahyalomboktravel2.netlify.app/',
+                //   code: 'https://github.com/GustiCahya/cahyalomboktravel',
+                //   tags: ['Hugo']
+                // },
+                // {
+                //   title: 'Adalene Fashion Platform',
+                //   desc: 'A sleek e-commerce landing page and management system for resellers and retailers, focused on modern aesthetics and seamless user experience.',
+                //   live: 'https://adalene-e6ca8.web.app/',
+                //   code: 'https://github.com/GustiCahya/adalene-react',
+                //   tags: ['React', 'Node.js', 'SCSS']
+                // },
               ].map((project, idx) => (
                 <motion.div key={idx} variants={fadeInUp} className="card">
                   <h3 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem' }}>{project.title}</h3>
