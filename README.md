@@ -22,7 +22,3 @@ I am a dedicated **Front-end Developer** specializing in the **JavaScript (ES6+)
 - 📧 [Email Me](mailto:gusticahya.work@gmail.com)
 - 📺 [YouTube Channel](https://www.youtube.com/@cahya7997)
 - 🌐 [Portfolio](https://tradexa-ledger.vercel.app/) (Demo Link)
-
----
-
-> "I don't just write code; I craft digital experiences." 
