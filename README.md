@@ -1,8 +1,8 @@
 # Hi there, I'm Gusti Cahya 👋
 
-### 🚀 Passionate Front-end Developer | Crafting Stunning Web Experiences
+### 🚀 Passionate Full-stack Developer | Crafting Stunning Web Experiences
 
-I am a dedicated **Front-end Developer** specializing in the **JavaScript (ES6+)** ecosystem. I thrive on building elegant, accessible, and high-performance web applications using **React.js**, **Next.js**, and **TypeScript**. My focus is on delivering pixel-perfect designs with optimized performance and seamless user experiences.
+I am a dedicated **Full-stack Developer** specializing in the **JavaScript (ES6+)** ecosystem. I thrive on building elegant, accessible, and high-performance web applications using **React.js**, **Next.js**, and **TypeScript**. My focus is on delivering pixel-perfect designs with optimized performance and seamless user experiences.
 
 ---
 
