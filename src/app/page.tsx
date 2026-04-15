@@ -38,9 +38,9 @@ export default function Home() {
             <Link href="#projects" className="nav-link">Projects</Link>
             <Link href="#about" className="nav-link">About</Link>
             <Link href="#contact" className="nav-link">Contact</Link>
-            <a href="/Resume.pdf" className="btn btn-secondary" style={{ padding: '0.5rem 1rem', fontSize: '0.8rem' }}>
+            {/* <a href="/Resume.pdf" className="btn btn-secondary" style={{ padding: '0.5rem 1rem', fontSize: '0.8rem' }}>
               Resume
-            </a>
+            </a> */}
           </div>
         </div>
       </nav>
