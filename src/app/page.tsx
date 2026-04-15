@@ -51,13 +51,13 @@ export default function Home() {
         <div className="container">
           <motion.div initial="hidden" animate="visible" variants={staggerContainer} style={{ maxWidth: '800px' }}>
             <motion.p variants={fadeInUp} style={{ color: 'var(--primary)', fontWeight: 600, marginBottom: '1rem' }}>
-              FULL STACK DEVELOPER
+              Frontend Developer
             </motion.p>
             <motion.h1 variants={fadeInUp} className="heading-1" style={{ marginBottom: '1.5rem' }}>
               I craft <span className="gradient-primary">stunning web experiences</span> that perform.
             </motion.h1>
             <motion.p variants={fadeInUp} className="text-lead" style={{ marginBottom: '2.5rem', maxWidth: '600px' }}>
-              Passionate Full Stack Developer dedicated to creating Single Page Applications (SPA) with Responsive Design. I specialize in React.js, Next.js, and Server-Side Rendering (SSR) to bring creative visions to life with pixel-perfect precision and Performance Optimization.
+              Passionate Frontend Developer dedicated to creating Single Page Applications (SPA) with Responsive Design. I specialize in React.js, Next.js, and Server-Side Rendering (SSR) to bring creative visions to life with pixel-perfect precision and Performance Optimization.
             </motion.p>
             <motion.div variants={fadeInUp} className="flex gap-4">
               <Link href="#projects" className="btn btn-primary">
@@ -141,7 +141,7 @@ export default function Home() {
             <div>
               <motion.h2 variants={fadeInUp} className="heading-2">My Journey</motion.h2>
               <motion.p variants={fadeInUp} className="text-lead mb-8">
-                As an enthusiastic Full Stack Developer, I am committed to building elegant, accessible, and fast web applications. My expertise lies firmly in the JavaScript (ES6+) ecosystem, specifically leveraging Next.js and TypeScript, paired with modern Test-Driven Development (TDD) to deliver engaging user experiences and robust backend solutions.
+                As an enthusiastic Frontend Developer, I am committed to building elegant, accessible, and fast web applications. My expertise lies firmly in the JavaScript (ES6+) ecosystem, specifically leveraging Next.js and TypeScript, paired with modern Test-Driven Development (TDD) to deliver engaging user experiences and robust backend solutions.
               </motion.p>
               
               <motion.h3 variants={fadeInUp} style={{ fontSize: '1.5rem', fontWeight: 600, marginBottom: '1rem' }}>Background</motion.h3>
@@ -152,7 +152,7 @@ export default function Home() {
                   <p style={{ color: 'var(--text-muted)' }}>Translating design mockups into fully functional, responsive, and interactive full stack applications with secure database systems and RESTful APIs integration.</p>
                 </div>
                 <div>
-                  <h4 style={{ fontSize: '1.1rem', fontWeight: 600 }}>Full Stack Developer</h4>
+                  <h4 style={{ fontSize: '1.1rem', fontWeight: 600 }}>Frontend Developer</h4>
                   <p style={{ color: 'var(--primary)', fontSize: '0.9rem', marginBottom: '0.5rem' }}>BNI • 2022</p>
                   <p style={{ color: 'var(--text-muted)' }}>The projects include the development of a Debt Collector App, a Debt Approval System, and a Collateral Auction App to optimize financial workflows and user experience.</p>
                 </div>
@@ -198,7 +198,7 @@ export default function Home() {
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} variants={staggerContainer} style={{ maxWidth: '600px', margin: '0 auto' }}>
             <motion.h2 variants={fadeInUp} className="heading-2">Start a Conversation</motion.h2>
             <motion.p variants={fadeInUp} className="text-lead mb-8">
-              Interested in collaborating on a full stack project or just want to say hello? I'm always open to discussing new opportunities and creative ideas. Drop me a message!
+              Interested in collaborating on a project or just want to say hello? I'm always open to discussing new opportunities and creative ideas. Drop me a message!
             </motion.p>
             <motion.div variants={fadeInUp} className="flex justify-center gap-4 mb-8">
               <a href="mailto:gusticahya.work@gmail.com" className="btn btn-primary">
