@@ -83,10 +83,10 @@ export default function Home() {
             <div className="grid grid-cols-2">
               {[
                 {
-                  title: 'Tradexa',
-                  desc: 'Designed for committed traders, Tradexa is a high-end trading journal. Monitor results, evaluate psychological and performance errors, and refine competitive advantage.',
-                  live: 'https://tradexa-ledger.vercel.app/',
-                  code: 'https://github.com/GustiCahya/tradexa',
+                  title: 'Latihan Trading',
+                  desc: 'Designed for committed traders, Latihan Trading is a high-end trading journal. Monitor results, evaluate psychological and performance errors, and refine competitive advantage.',
+                  live: 'https://latihantrading.com',
+                  code: 'https://github.com/GustiCahya/latihantrading',
                   tags: ['Next.js', 'Tailwind CSS', 'Neon', 'Prisma', 'NextAuth.js', 'Recharts', 'Lucide React']
                 },
                 {
@@ -96,20 +96,20 @@ export default function Home() {
                   code: 'https://github.com/GustiCahya/tradexa-flutter-app',
                   tags: ['Flutter', 'Riverpod', 'Isar']
                 },
-                // {
-                //   title: 'Cahya Lombok Travel',
-                //   desc: 'A professional travel agency website, featuring optimized performance for showcasing tour packages and exploring the beauty of Lombok.',
-                //   live: 'https://cahyalomboktravel2.netlify.app/',
-                //   code: 'https://github.com/GustiCahya/cahyalomboktravel',
-                //   tags: ['Hugo']
-                // },
-                // {
-                //   title: 'Adalene Fashion Platform',
-                //   desc: 'A sleek e-commerce landing page and management system for resellers and retailers, focused on modern aesthetics and seamless user experience.',
-                //   live: 'https://adalene-e6ca8.web.app/',
-                //   code: 'https://github.com/GustiCahya/adalene-react',
-                //   tags: ['React', 'Node.js', 'SCSS']
-                // },
+                {
+                  title: 'Tablogs',
+                  desc: 'Create consistent soil boring logs and manage borehole data from field to final report. Cloud based platform allows for faster logging, automated reporting, and standardized geotechnical data.',
+                  live: 'https://tablogs.com',
+                  code: 'https://tablogs.com',
+                  tags: ['Angular']
+                },
+                {
+                  title: 'Lelang Agunan BNI',
+                  desc: 'Bank Negara Indonesia is an Indonesian state-owned bank. It has branches primarily in Indonesia, but it can also found in Seoul, Singapore, Hong Kong, Tokyo, Amsterdam, London and New York. It had 2,047 branches and more than 63 million customers in 2021. It is listed on the Indonesia Stock Exchange as "BBNI".',
+                  live: 'https://lelangagunan.bni.co.id',
+                  code: 'https://lelangagunan.bni.co.id',
+                  tags: ['React', 'Flutter', '.net']
+                },
               ].map((project, idx) => (
                 <motion.div key={idx} variants={fadeInUp} className="card">
                   <h3 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem' }}>{project.title}</h3>
@@ -122,10 +122,10 @@ export default function Home() {
                        style={{ fontSize: '0.9rem', color: 'var(--primary)', fontWeight: 500 }}>
                       <ExternalLink size={16} /> Live Demo
                     </a>
-                    <a href={project.code} target="_blank" rel="noreferrer" className="flex items-center gap-2 inline-block" 
+                    {/* <a href={project.code} target="_blank" rel="noreferrer" className="flex items-center gap-2 inline-block" 
                        style={{ fontSize: '0.9rem', color: 'var(--text-muted)', fontWeight: 500 }}>
                       <Code2 size={16} /> Source Code
-                    </a>
+                    </a> */}
                   </div>
                 </motion.div>
               ))}
