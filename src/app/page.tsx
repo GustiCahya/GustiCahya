@@ -148,7 +148,7 @@ export default function Home() {
               <motion.div variants={fadeInUp} style={{ borderLeft: '2px solid var(--border)', paddingLeft: '1.5rem', display: 'flex', flexDirection: 'column', gap: '2rem' }}>
                 <div>
                   <h4 style={{ fontSize: '1.1rem', fontWeight: 600 }}>Full Stack Engineer</h4>
-                  <p style={{ color: 'var(--primary)', fontSize: '0.9rem', marginBottom: '0.5rem' }}>Freelance • 2026 - Present</p>
+                  <p style={{ color: 'var(--primary)', fontSize: '0.9rem', marginBottom: '0.5rem' }}>Self-employed • 2026 - Present</p>
                   <p style={{ color: 'var(--text-muted)' }}>Translating design mockups into fully functional, responsive, and interactive full stack applications with secure database systems and RESTful APIs integration.</p>
                 </div>
                 <div>
