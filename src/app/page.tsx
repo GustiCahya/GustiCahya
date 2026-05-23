@@ -51,13 +51,13 @@ export default function Home() {
         <div className="container">
           <motion.div initial="hidden" animate="visible" variants={staggerContainer} style={{ maxWidth: '800px' }}>
             <motion.p variants={fadeInUp} style={{ color: 'var(--primary)', fontWeight: 600, marginBottom: '1rem' }}>
-              Frontend Developer
+              SaaS AI Engineer
             </motion.p>
             <motion.h1 variants={fadeInUp} className="heading-1" style={{ marginBottom: '1.5rem' }}>
-              I craft <span className="gradient-primary">stunning web experiences</span> that perform.
+              I build <span className="gradient-primary">intelligent SaaS products</span> and AI-driven automation.
             </motion.h1>
             <motion.p variants={fadeInUp} className="text-lead" style={{ marginBottom: '2.5rem', maxWidth: '600px' }}>
-              Passionate Frontend Developer dedicated to creating Single Page Applications (SPA) with Responsive Design. I specialize in React.js, Next.js, and Server-Side Rendering (SSR) to bring creative visions to life with pixel-perfect precision and Performance Optimization.
+              Passionate SaaS AI Engineer and SaaS Maker specializing in building AI-powered applications, workflow automation, and modern web solutions. I leverage tools like n8n, Antigravity, Cloud Code, OpenRouter, React/Next.js, and full-stack cloud technologies to build production-grade, highly efficient SaaS platforms.
             </motion.p>
             <motion.div variants={fadeInUp} className="flex gap-4">
               <Link href="#projects" className="btn btn-primary">
@@ -141,15 +141,15 @@ export default function Home() {
             <div>
               <motion.h2 variants={fadeInUp} className="heading-2">My Journey</motion.h2>
               <motion.p variants={fadeInUp} className="text-lead mb-8">
-                As an enthusiastic Frontend Developer, I am committed to building elegant, accessible, and fast web applications. My expertise lies firmly in the JavaScript (ES6+) ecosystem, specifically leveraging Next.js and TypeScript, paired with modern Test-Driven Development (TDD) to deliver engaging user experiences and robust backend solutions.
+                As a results-driven SaaS AI Engineer and SaaS Maker, I am passionate about creating autonomous agents, advanced AI integrations, and automated workflows. With deep expertise in Next.js, n8n, OpenRouter, and Antigravity, I build intelligent software solutions that optimize productivity and deliver exceptional value.
               </motion.p>
               
               <motion.h3 variants={fadeInUp} style={{ fontSize: '1.5rem', fontWeight: 600, marginBottom: '1rem' }}>Background</motion.h3>
               <motion.div variants={fadeInUp} style={{ borderLeft: '2px solid var(--border)', paddingLeft: '1.5rem', display: 'flex', flexDirection: 'column', gap: '2rem' }}>
                 <div>
-                  <h4 style={{ fontSize: '1.1rem', fontWeight: 600 }}>Full Stack Engineer</h4>
+                  <h4 style={{ fontSize: '1.1rem', fontWeight: 600 }}>SaaS AI Engineer & SaaS Maker</h4>
                   <p style={{ color: 'var(--primary)', fontSize: '0.9rem', marginBottom: '0.5rem' }}>Self-employed • 2026 - Present</p>
-                  <p style={{ color: 'var(--text-muted)' }}>Translating design mockups into fully functional, responsive, and interactive full stack applications with secure database systems and RESTful APIs integration.</p>
+                  <p style={{ color: 'var(--text-muted)' }}>Translating concepts into profitable, AI-driven SaaS products. Developing complex automation workflows using n8n and Antigravity, integrating LLMs via OpenRouter, and utilizing Cloud Code for optimized developer experiences.</p>
                 </div>
                 <div>
                   <h4 style={{ fontSize: '1.1rem', fontWeight: 600 }}>Frontend Developer</h4>
@@ -162,6 +162,12 @@ export default function Home() {
             <div>
               <motion.h3 variants={fadeInUp} style={{ fontSize: '1.5rem', fontWeight: 600, marginBottom: '2rem', marginTop: '4rem' }}>Skills & Technologies</motion.h3>
               <div className="flex flex-col gap-6">
+                <motion.div variants={fadeInUp}>
+                  <h4 style={{ marginBottom: '1rem', color: 'var(--text-muted)' }}>AI & Automation</h4>
+                  <div className="flex gap-2" style={{ flexWrap: 'wrap' }}>
+                    {['n8n Workflow Automation', 'Antigravity AI Agent', 'OpenRouter LLM Integration', 'Cloud Code Development', 'SaaS Maker Frameworks'].map(skill => <span key={skill} className="badge">{skill}</span>)}
+                  </div>
+                </motion.div>
                 <motion.div variants={fadeInUp}>
                   <h4 style={{ marginBottom: '1rem', color: 'var(--text-muted)' }}>Languages</h4>
                   <div className="flex gap-2" style={{ flexWrap: 'wrap' }}>
