@@ -84,7 +84,7 @@ export default function Home() {
               {[
                 {
                   title: 'Latihan Trading',
-                  desc: 'Designed for committed traders, Latihan Trading is a high-end trading journal. Monitor results, evaluate psychological and performance errors, and refine competitive advantage.',
+                  desc: 'Designed for committed traders, Latihan Trading is a high-end backtest software. Monitor results, leverage AI Advanced Analytics to evaluate trading performance, and refine competitive advantage.',
                   live: 'https://latihantrading.com',
                   code: 'https://github.com/GustiCahya/latihantrading',
                   tags: ['Next.js', 'Tailwind CSS', 'Neon', 'Prisma', 'NextAuth.js', 'Recharts', 'Lucide React']
