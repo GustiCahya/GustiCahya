@@ -66,7 +66,7 @@ export const translations = {
     },
     footer: {
       copy: "© 2026 Gusti Bagus Cahya Utama. All rights reserved.",
-      built: "Built with n8n workflows in mind."
+      built: "Automating workflows & integrating AI."
     },
     svg: {
       trigger: "Trigger",
@@ -146,7 +146,7 @@ export const translations = {
     },
     footer: {
       copy: "© 2026 Gusti Bagus Cahya Utama. Hak cipta dilindungi undang-undang.",
-      built: "Dibangun dengan mempertimbangkan alur kerja n8n."
+      built: "Mengotomatiskan alur kerja & integrasi AI."
     },
     svg: {
       trigger: "Trigger",
@@ -226,7 +226,7 @@ export const translations = {
     },
     footer: {
       copy: "© 2026 Gusti Bagus Cahya Utama. 保留所有权利。",
-      built: "构建时充分考虑了 n8n 工作流程。"
+      built: "自动化工作流程与人工智能集成。"
     },
     svg: {
       trigger: "触发器",
