@@ -79,9 +79,9 @@ export default function Home() {
       </nav>
 
       {/* Hero Section */}
-      <section className="section" style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', position: 'relative' }}>
+      <section style={{ paddingTop: '7rem', paddingBottom: '5rem', position: 'relative' }}>
         <div className="glow-effect"></div>
-        <div className="container flex flex-col justify-center gap-16" style={{ paddingTop: '15vh' }}>
+        <div className="container flex flex-col justify-center" style={{ gap: '3rem' }}>
           <motion.div initial="hidden" animate="visible" variants={staggerContainer} style={{ maxWidth: '800px' }}>
             <motion.p variants={fadeInUp} style={{ color: 'var(--primary)', fontWeight: 600, marginBottom: '1rem' }}>
               {t.hero.sub}
