@@ -1,7 +1,8 @@
 "use client";
 
 import { motion, Variants } from 'framer-motion';
-import { Github, Linkedin, Mail, ExternalLink, ChevronRight, Youtube } from 'lucide-react';
+import { Linkedin, Mail, ExternalLink, ChevronRight, Youtube } from 'lucide-react';
+import Image from 'next/image';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import { translations } from './i18n';
@@ -234,8 +235,8 @@ export default function Home() {
                 {
                   title: t.projects.prj_1_title,
                   desc: t.projects.prj_1_desc,
-                  workflow: 'https://github.com/GustiCahya/n8n/blob/main/workflows/01-lead-capture-crm-whatsapp.json',
-                  tags: ['n8n', 'Google Sheets', 'WhatsApp API']
+                  workflow: 'https://n8n.io/workflows/21303-capture-website-leads-in-google-sheets-crm-with-whatsapp-and-gmail-alerts/',
+                  tags: ['n8n', 'Google Sheets', 'WhatsApp API', 'Gmail']
                 },
                 {
                   title: t.projects.prj_2_title,
@@ -262,43 +263,59 @@ export default function Home() {
                   tags: ['n8n', 'AI Agents', 'OpenAI API']
                 },
               ].map((project, idx) => (
-                <motion.div key={idx} variants={fadeInUp} className="card" style={{ padding: '2rem' }}>
-                  <h3 style={{ fontSize: '1.25rem', fontWeight: 600, marginBottom: '0.75rem' }}>{project.title}</h3>
-                  <p className="text-muted mb-4" style={{ color: 'var(--text-muted)', lineHeight: 1.6, maxWidth: '600px' }}>{project.desc}</p>
-                  <div className="flex gap-2 mb-4" style={{ flexWrap: 'wrap' }}>
-                    {project.tags.map(tag => <span key={tag} className="badge" style={{ background: 'rgba(94,234,212,0.08)', color: 'var(--primary)', border: '1px solid rgba(94,234,212,0.25)' }}>{tag}</span>)}
+                <motion.div key={idx} variants={fadeInUp} className="card case-study" style={{ padding: '2rem' }}>
+                  <div>
+                    <h3 style={{ fontSize: '1.25rem', fontWeight: 600, marginBottom: '0.75rem' }}>{project.title}</h3>
+                    <p className="text-muted mb-4" style={{ color: 'var(--text-muted)', lineHeight: 1.6, maxWidth: '600px' }}>{project.desc}</p>
+                    <div className="flex gap-2" style={{ flexWrap: 'wrap' }}>
+                      {project.tags.map(tag => <span key={tag} className="badge" style={{ background: 'rgba(94,234,212,0.08)', color: 'var(--primary)', border: '1px solid rgba(94,234,212,0.25)' }}>{tag}</span>)}
+                    </div>
                   </div>
-                  <a href={project.workflow} target="_blank" rel="noreferrer" className="flex items-center gap-2"
-                     style={{ fontSize: '0.9rem', color: 'var(--primary)', fontWeight: 500, alignSelf: 'flex-start' }}>
-                    <Github size={16} /> {t.projects.btn_workflow}
+                  <a href={project.workflow} target="_blank" rel="noreferrer" className="btn btn-secondary case-study-action">
+                    {t.projects.btn_workflow}
                   </a>
                 </motion.div>
               ))}
             </div>
 
             <motion.h3 variants={fadeInUp} style={{ fontSize: '1.5rem', fontWeight: 600, marginBottom: '2rem', color: 'var(--text-muted)' }}>{t.projects.other_title}</motion.h3>
-            <div className="grid grid-cols-3">
+            <div className="grid grid-cols-2">
               {[
                 {
                   title: 'Latihan Trading',
                   desc: t.projects.other_1_desc,
                   live: 'https://latihantrading.com',
+                  banner: '/projects/latihantrading-banner.png',
                   tags: ['Next.js', 'Tailwind CSS', 'Neon', 'Prisma', 'NextAuth.js', 'Recharts']
                 },
                 {
                   title: 'PaperPump',
                   desc: t.projects.other_2_desc,
                   live: 'https://paper-pump.web.app',
+                  banner: '/projects/paperpump-banner.png',
                   tags: ['Chrome Extension', 'Next.js', 'Firebase', 'DexScreener API']
                 },
                 {
                   title: 'Lombok Transfer',
                   desc: t.projects.other_3_desc,
                   live: 'https://lomboktransfer.com',
+                  banner: '/projects/lomboktransfer-banner.png',
                   tags: ['Next.js', 'Supabase']
+                },
+                {
+                  title: 'LightDevs',
+                  desc: t.projects.other_4_desc,
+                  live: 'https://lightdevs.com',
+                  banner: '/projects/lightdevs-banner.png',
+                  tags: ['Next.js', 'Tailwind CSS']
                 },
               ].map((project, idx) => (
                 <motion.div key={idx} variants={fadeInUp} className="card" style={{ padding: '1.5rem' }}>
+                  <a href={project.live} target="_blank" rel="noreferrer" aria-hidden="true" tabIndex={-1}
+                     style={{ display: 'block', margin: '-1.5rem -1.5rem 1.25rem', borderBottom: '1px solid var(--border)', borderRadius: '1rem 1rem 0 0', overflow: 'hidden' }}>
+                    <Image src={project.banner} alt="" width={1200} height={630} sizes="(min-width: 768px) 50vw, 100vw"
+                           style={{ display: 'block', width: '100%', height: 'auto' }} />
+                  </a>
                   <h4 style={{ fontSize: '1.1rem', fontWeight: 600, marginBottom: '0.5rem' }}>{project.title}</h4>
                   <p className="text-muted mb-4" style={{ fontSize: '0.9rem', flexGrow: 1, color: 'var(--text-muted)', lineHeight: 1.5 }}>{project.desc}</p>
                   <div className="flex gap-2 mb-4" style={{ flexWrap: 'wrap' }}>

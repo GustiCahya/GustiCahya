@@ -44,11 +44,12 @@ export const translations = {
       prj_4_desc: "A multi-step intake form ends with the right person getting notified in Slack within seconds of submission.",
       prj_5_title: "Custom AI agent for automated data filtering",
       prj_5_desc: "An AI agent reviews incoming records and only forwards the ones that actually need a human to look at them.",
-      btn_workflow: "View workflow JSON",
+      btn_workflow: "View workflow",
       other_title: "Other engineering work",
       other_1_desc: "A high-end backtesting platform for traders, with AI-driven analytics to evaluate trading performance.",
       other_2_desc: "A browser extension that adds a paper-trading panel to Pump.fun, so traders can practice with virtual SOL and live prices - no wallet, no risk.",
       other_3_desc: "Website for a private airport transfer and tour business in Lombok - routes with fixed pricing, online booking, and content in English, Indonesian, and Chinese.",
+      other_4_desc: "Website for LightDevs, an automation, AI & web studio - presents its workflow automation, AI integration, MVP, and company website services, with a clear path to start a project.",
       btn_view: "View Project"
     },
     about: {
@@ -130,11 +131,12 @@ export const translations = {
       prj_4_desc: "Formulir penerimaan multi-langkah diakhiri dengan orang yang tepat mendapatkan pemberitahuan di Slack dalam hitungan detik setelah pengiriman.",
       prj_5_title: "Custom AI agent untuk penyaringan data otomatis",
       prj_5_desc: "AI agent meninjau catatan yang masuk dan hanya meneruskan catatan yang benar-benar perlu dilihat oleh manusia.",
-      btn_workflow: "Lihat workflow JSON",
+      btn_workflow: "Lihat workflow",
       other_title: "Pekerjaan teknik lainnya",
       other_1_desc: "Platform backtesting kelas atas untuk trader, dengan analitik berbasis AI untuk mengevaluasi performa trading.",
       other_2_desc: "Ekstensi browser yang menambahkan panel paper trading di Pump.fun, sehingga trader bisa berlatih dengan SOL virtual dan harga real-time - tanpa wallet, tanpa risiko.",
       other_3_desc: "Website untuk bisnis transfer bandara dan tur privat di Lombok - rute dengan harga tetap, pemesanan online, serta konten dalam bahasa Inggris, Indonesia, dan Mandarin.",
+      other_4_desc: "Website untuk LightDevs, studio automation, AI & web - menampilkan layanan workflow automation, integrasi AI, MVP, dan website company profile, dengan alur yang jelas untuk memulai proyek.",
       btn_view: "Lihat Proyek"
     },
     about: {
@@ -216,11 +218,12 @@ export const translations = {
       prj_4_desc: "-个多步骤的接收表单，在提交后的几秒钟内，合适的人员就会在 Slack 中收到通知。",
       prj_5_title: "用于自动数据过滤的定制人工智能代理",
       prj_5_desc: "人工智能代理审查传入的记录，并且只转发那些真正需要人类查看的记录。",
-      btn_workflow: "查看工作流 JSON",
+      btn_workflow: "查看工作流",
       other_title: "其他工程工作",
       other_1_desc: "为交易员提供的高端回测平台，配备人工智能驱动的分析功能，以评估交易表现。",
       other_2_desc: "一款浏览器扩展，在 Pump.fun 上添加模拟交易面板，让交易者使用虚拟 SOL 和实时价格进行练习 - 无需钱包，零风险。",
       other_3_desc: "为龙目岛私人机场接送与旅游业务打造的网站 - 提供固定价格的路线、在线预订，并支持英文、印尼文和中文。",
+      other_4_desc: "为自动化、人工智能与网站工作室 LightDevs 打造的网站 - 展示工作流自动化、人工智能集成、MVP 开发和企业官网服务，并提供清晰的项目启动入口。",
       btn_view: "查看项目"
     },
     about: {
