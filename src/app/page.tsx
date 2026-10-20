@@ -234,35 +234,44 @@ export default function Home() {
                 {
                   title: t.projects.prj_1_title,
                   desc: t.projects.prj_1_desc,
+                  workflow: 'https://github.com/GustiCahya/n8n/blob/main/workflows/01-lead-capture-crm-whatsapp.json',
                   tags: ['n8n', 'Google Sheets', 'WhatsApp API']
                 },
                 {
                   title: t.projects.prj_2_title,
                   desc: t.projects.prj_2_desc,
+                  workflow: 'https://github.com/GustiCahya/n8n/blob/main/workflows/02-ai-data-processing-pipeline.json',
                   tags: ['n8n', 'OpenAI API']
                 },
                 {
                   title: t.projects.prj_3_title,
                   desc: t.projects.prj_3_desc,
+                  workflow: 'https://github.com/GustiCahya/n8n/blob/main/workflows/03-webhook-to-sheets-reliable-ingest.json',
                   tags: ['n8n', 'Webhooks', 'Google Sheets']
                 },
                 {
                   title: t.projects.prj_4_title,
                   desc: t.projects.prj_4_desc,
+                  workflow: 'https://github.com/GustiCahya/n8n/blob/main/workflows/04-typeform-airtable-slack.json',
                   tags: ['n8n', 'Typeform', 'Airtable', 'Slack']
                 },
                 {
                   title: t.projects.prj_5_title,
                   desc: t.projects.prj_5_desc,
+                  workflow: 'https://github.com/GustiCahya/n8n/blob/main/workflows/05-ai-agent-record-filter.json',
                   tags: ['n8n', 'AI Agents', 'OpenAI API']
                 },
               ].map((project, idx) => (
                 <motion.div key={idx} variants={fadeInUp} className="card" style={{ padding: '2rem' }}>
                   <h3 style={{ fontSize: '1.25rem', fontWeight: 600, marginBottom: '0.75rem' }}>{project.title}</h3>
                   <p className="text-muted mb-4" style={{ color: 'var(--text-muted)', lineHeight: 1.6, maxWidth: '600px' }}>{project.desc}</p>
-                  <div className="flex gap-2" style={{ flexWrap: 'wrap' }}>
+                  <div className="flex gap-2 mb-4" style={{ flexWrap: 'wrap' }}>
                     {project.tags.map(tag => <span key={tag} className="badge" style={{ background: 'rgba(94,234,212,0.08)', color: 'var(--primary)', border: '1px solid rgba(94,234,212,0.25)' }}>{tag}</span>)}
                   </div>
+                  <a href={project.workflow} target="_blank" rel="noreferrer" className="flex items-center gap-2"
+                     style={{ fontSize: '0.9rem', color: 'var(--primary)', fontWeight: 500, alignSelf: 'flex-start' }}>
+                    <Github size={16} /> {t.projects.btn_workflow}
+                  </a>
                 </motion.div>
               ))}
             </div>
