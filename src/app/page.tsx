@@ -172,27 +172,50 @@ export default function Home() {
               {t.services.lead}
             </motion.p>
 
-            <div className="grid grid-cols-3" style={{ gap: '1.5rem', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))' }}>
-              {[
-                {
-                  title: t.services.srv_1_title,
-                  desc: t.services.srv_1_desc,
-                },
-                {
-                  title: t.services.srv_2_title,
-                  desc: t.services.srv_2_desc,
-                },
-                {
-                  title: t.services.srv_3_title,
-                  desc: t.services.srv_3_desc,
-                },
-              ].map((service, idx) => (
-                <motion.div key={idx} variants={fadeInUp} className="card" style={{ padding: '2rem' }}>
-                  <h3 style={{ fontSize: '1.25rem', fontWeight: 600, marginBottom: '1rem' }}>{service.title}</h3>
-                  <p className="text-muted" style={{ lineHeight: 1.6 }}>{service.desc}</p>
-                </motion.div>
-              ))}
-            </div>
+            {[
+              {
+                title: t.services.group_1,
+                items: [
+                  {
+                    title: t.services.srv_1_title,
+                    desc: t.services.srv_1_desc,
+                  },
+                  {
+                    title: t.services.srv_2_title,
+                    desc: t.services.srv_2_desc,
+                  },
+                  {
+                    title: t.services.srv_3_title,
+                    desc: t.services.srv_3_desc,
+                  },
+                ]
+              },
+              {
+                title: t.services.group_2,
+                items: [
+                  {
+                    title: t.services.srv_4_title,
+                    desc: t.services.srv_4_desc,
+                  },
+                  {
+                    title: t.services.srv_5_title,
+                    desc: t.services.srv_5_desc,
+                  },
+                ]
+              },
+            ].map((group, groupIdx) => (
+              <div key={groupIdx} style={{ marginTop: groupIdx > 0 ? '3rem' : 0 }}>
+                <motion.h3 variants={fadeInUp} style={{ fontSize: '1.5rem', fontWeight: 600, marginBottom: '1.5rem', color: 'var(--text-muted)' }}>{group.title}</motion.h3>
+                <div className="grid grid-cols-3" style={{ gap: '1.5rem', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))' }}>
+                  {group.items.map((service, idx) => (
+                    <motion.div key={idx} variants={fadeInUp} className="card" style={{ padding: '2rem' }}>
+                      <h4 style={{ fontSize: '1.25rem', fontWeight: 600, marginBottom: '1rem' }}>{service.title}</h4>
+                      <p className="text-muted" style={{ lineHeight: 1.6 }}>{service.desc}</p>
+                    </motion.div>
+                  ))}
+                </div>
+              </div>
+            ))}
           </motion.div>
         </div>
       </section>
@@ -245,7 +268,7 @@ export default function Home() {
             </div>
 
             <motion.h3 variants={fadeInUp} style={{ fontSize: '1.5rem', fontWeight: 600, marginBottom: '2rem', color: 'var(--text-muted)' }}>{t.projects.other_title}</motion.h3>
-            <div className="grid grid-cols-2">
+            <div className="grid grid-cols-3">
               {[
                 {
                   title: 'Latihan Trading',
@@ -254,22 +277,16 @@ export default function Home() {
                   tags: ['Next.js', 'Tailwind CSS', 'Neon', 'Prisma', 'NextAuth.js', 'Recharts']
                 },
                 {
-                  title: 'Tradexa',
+                  title: 'PaperPump',
                   desc: t.projects.other_2_desc,
-                  live: 'https://github.com/GustiCahya/tradexa-flutter-app',
-                  tags: ['Flutter', 'Riverpod', 'Isar']
+                  live: 'https://paper-pump.web.app',
+                  tags: ['Chrome Extension', 'Next.js', 'Firebase', 'DexScreener API']
                 },
                 {
-                  title: 'Tablogs',
+                  title: 'Lombok Transfer',
                   desc: t.projects.other_3_desc,
-                  live: 'https://tablogs.com',
-                  tags: ['Angular']
-                },
-                {
-                  title: 'Lelang Agunan BNI',
-                  desc: t.projects.other_4_desc,
-                  live: 'https://lelangagunan.bni.co.id',
-                  tags: ['React', 'Flutter', '.net']
+                  live: 'https://lomboktransfer.com',
+                  tags: ['Next.js', 'Supabase']
                 },
               ].map((project, idx) => (
                 <motion.div key={idx} variants={fadeInUp} className="card" style={{ padding: '1.5rem' }}>

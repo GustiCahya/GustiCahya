@@ -17,13 +17,19 @@ export const translations = {
     },
     services: {
       title: "What I do",
-      lead: "Three ways I help businesses spend less time on repetitive work and more time on what actually needs a human.",
+      lead: "I help businesses automate the work they repeat every day, and build the products and websites they need to grow.",
+      group_1: "Automation & AI",
+      group_2: "Web development",
       srv_1_title: "Workflow automation",
       srv_1_desc: "Connect the tools you already use - CRMs, forms, spreadsheets, WhatsApp, Slack - into pipelines that run in the background, with error handling so nothing quietly fails.",
       srv_2_title: "AI integration",
       srv_2_desc: "Add an OpenAI or Claude step into a workflow so it can read, summarize, sort, or reply on its own - without needing someone to babysit it.",
       srv_3_title: "AI data annotation & evaluation",
-      srv_3_desc: "Label, rank, and review AI outputs with the accuracy and consistency that model training actually needs - following detailed guidelines closely."
+      srv_3_desc: "Label, rank, and review AI outputs with the accuracy and consistency that model training actually needs - following detailed guidelines closely.",
+      srv_4_title: "MVP development",
+      srv_4_desc: "Turn an idea into a working product you can put in front of real users. Built with Next.js, scoped to the features that prove the idea, and structured so it can grow after launch.",
+      srv_5_title: "Company profile website",
+      srv_5_desc: "A fast, mobile-friendly website that explains what your business does and makes it easy for customers to reach you - with clean design and SEO basics set up from day one."
     },
     projects: {
       title: "Automation case studies",
@@ -40,9 +46,8 @@ export const translations = {
       prj_5_desc: "An AI agent reviews incoming records and only forwards the ones that actually need a human to look at them.",
       other_title: "Other engineering work",
       other_1_desc: "A high-end backtesting platform for traders, with AI-driven analytics to evaluate trading performance.",
-      other_2_desc: "A mobile trading journal app that helps traders monitor results and refine their edge.",
-      other_3_desc: "A cloud platform for creating soil boring logs and managing borehole data from field to final report.",
-      other_4_desc: "Collateral auction platform built for one of Indonesia's largest state-owned banks.",
+      other_2_desc: "A browser extension that adds a paper-trading panel to Pump.fun, so traders can practice with virtual SOL and live prices - no wallet, no risk.",
+      other_3_desc: "Website for a private airport transfer and tour business in Lombok - routes with fixed pricing, online booking, and content in English, Indonesian, and Chinese.",
       btn_view: "View Project"
     },
     about: {
@@ -97,13 +102,19 @@ export const translations = {
     },
     services: {
       title: "Apa yang saya lakukan",
-      lead: "Tiga cara saya membantu bisnis menghemat waktu pada pekerjaan berulang dan lebih fokus pada hal yang benar-benar membutuhkan campur tangan manusia.",
+      lead: "Saya membantu bisnis mengotomatiskan pekerjaan yang diulang setiap hari, serta membangun produk dan website yang dibutuhkan untuk berkembang.",
+      group_1: "Automation & AI",
+      group_2: "Pengembangan web",
       srv_1_title: "Workflow automation",
       srv_1_desc: "Menghubungkan alat yang sudah Anda gunakan - CRM, formulir, spreadsheet, WhatsApp, Slack - ke dalam pipeline yang berjalan di latar belakang, dilengkapi dengan error handling sehingga tidak ada yang gagal tanpa disadari.",
       srv_2_title: "AI integration",
       srv_2_desc: "Tambahkan langkah OpenAI atau Claude ke dalam alur kerja sehingga dapat membaca, merangkum, menyortir, atau membalas dengan sendirinya - tanpa perlu diawasi.",
       srv_3_title: "AI data annotation & evaluation",
-      srv_3_desc: "Beri label, peringkat, dan tinjau output AI dengan akurasi dan konsistensi yang benar-benar dibutuhkan oleh pelatihan model - mengikuti panduan terperinci dengan saksama."
+      srv_3_desc: "Beri label, peringkat, dan tinjau output AI dengan akurasi dan konsistensi yang benar-benar dibutuhkan oleh pelatihan model - mengikuti panduan terperinci dengan saksama.",
+      srv_4_title: "Pembuatan MVP",
+      srv_4_desc: "Ubah ide menjadi produk yang berfungsi dan bisa langsung dicoba oleh pengguna nyata. Dibangun dengan Next.js, fokus pada fitur yang membuktikan ide Anda, dan terstruktur agar mudah dikembangkan setelah peluncuran.",
+      srv_5_title: "Website company profile",
+      srv_5_desc: "Website yang cepat dan nyaman dibuka di HP, menjelaskan bisnis Anda dengan jelas dan memudahkan pelanggan menghubungi Anda - dengan desain yang rapi dan dasar SEO yang sudah disiapkan sejak awal."
     },
     projects: {
       title: "Studi kasus otomasi",
@@ -120,9 +131,8 @@ export const translations = {
       prj_5_desc: "AI agent meninjau catatan yang masuk dan hanya meneruskan catatan yang benar-benar perlu dilihat oleh manusia.",
       other_title: "Pekerjaan teknik lainnya",
       other_1_desc: "Platform backtesting kelas atas untuk trader, dengan analitik berbasis AI untuk mengevaluasi performa trading.",
-      other_2_desc: "Aplikasi jurnal trading seluler yang membantu trader memantau hasil dan mempertajam strategi mereka.",
-      other_3_desc: "Platform cloud untuk membuat log pemboran tanah dan mengelola data lubang bor dari lapangan hingga laporan akhir.",
-      other_4_desc: "Platform lelang agunan yang dibangun untuk salah satu bank milik negara terbesar di Indonesia.",
+      other_2_desc: "Ekstensi browser yang menambahkan panel paper trading di Pump.fun, sehingga trader bisa berlatih dengan SOL virtual dan harga real-time - tanpa wallet, tanpa risiko.",
+      other_3_desc: "Website untuk bisnis transfer bandara dan tur privat di Lombok - rute dengan harga tetap, pemesanan online, serta konten dalam bahasa Inggris, Indonesia, dan Mandarin.",
       btn_view: "Lihat Proyek"
     },
     about: {
@@ -177,13 +187,19 @@ export const translations = {
     },
     services: {
       title: "我的服务",
-      lead: "我通过三种方式帮助企业减少在重复性工作上的时间，并将更多时间投入到真正需要人类干预的事务上。",
+      lead: "我帮助企业将每天重复的工作自动化，并打造企业发展所需的产品和网站。",
+      group_1: "自动化与人工智能",
+      group_2: "网站开发",
       srv_1_title: "工作流自动化",
       srv_1_desc: "连接您已经在使用的工具 - CRM、表单、电子表格、WhatsApp、Slack - 形成在后台运行的流水线，并具备错误处理功能，确保没有悄无声息的故障。",
       srv_2_title: "人工智能集成",
       srv_2_desc: "在工作流中加入 OpenAI 或 Claude 步骤，使其能够自行阅读、总结、分类或回复 - 无需人工看管。",
       srv_3_title: "人工智能数据标注与评估",
-      srv_3_desc: "以模型训练真正需要的准确性和-致性来标记、排序和审查人工智能的输出 - 严格遵循详细的指南。"
+      srv_3_desc: "以模型训练真正需要的准确性和-致性来标记、排序和审查人工智能的输出 - 严格遵循详细的指南。",
+      srv_4_title: "MVP 开发",
+      srv_4_desc: "将想法变成可以交给真实用户使用的产品。使用 Next.js 构建，聚焦于验证想法的核心功能，并为上线后的扩展打好结构基础。",
+      srv_5_title: "企业官网",
+      srv_5_desc: "快速且适配移动端的网站，清晰介绍您的业务，让客户轻松联系到您 - 设计简洁，并从一开始就做好基础 SEO。"
     },
     projects: {
       title: "自动化案例研究",
@@ -200,9 +216,8 @@ export const translations = {
       prj_5_desc: "人工智能代理审查传入的记录，并且只转发那些真正需要人类查看的记录。",
       other_title: "其他工程工作",
       other_1_desc: "为交易员提供的高端回测平台，配备人工智能驱动的分析功能，以评估交易表现。",
-      other_2_desc: "-款移动交易日志应用程序，帮助交易员监控结果并完善他们的优势。",
-      other_3_desc: "-个云平台，用于创建土壤钻探日志并管理从现场到最终报告的钻孔数据。",
-      other_4_desc: "为印度尼西亚最大的国有银行之-建立的抵押品拍卖平台。",
+      other_2_desc: "一款浏览器扩展，在 Pump.fun 上添加模拟交易面板，让交易者使用虚拟 SOL 和实时价格进行练习 - 无需钱包，零风险。",
+      other_3_desc: "为龙目岛私人机场接送与旅游业务打造的网站 - 提供固定价格的路线、在线预订，并支持英文、印尼文和中文。",
       btn_view: "查看项目"
     },
     about: {
