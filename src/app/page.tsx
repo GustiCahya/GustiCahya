@@ -247,13 +247,13 @@ export default function Home() {
                 {
                   title: t.projects.prj_3_title,
                   desc: t.projects.prj_3_desc,
-                  workflow: 'https://github.com/GustiCahya/n8n/blob/main/workflows/03-webhook-to-sheets-reliable-ingest.json',
+                  workflow: 'https://n8n.io/workflows/21501-log-order-webhooks-to-google-sheets-with-dead-letter-queue-and-gmail-alerts/',
                   tags: ['n8n', 'Webhooks', 'Google Sheets']
                 },
                 {
                   title: t.projects.prj_4_title,
                   desc: t.projects.prj_4_desc,
-                  workflow: 'https://github.com/GustiCahya/n8n/blob/main/workflows/04-typeform-airtable-slack.json',
+                  workflow: 'https://n8n.io/workflows/21601-route-and-track-typeform-leads-in-airtable-and-slack-with-gmail-sla-alerts/',
                   tags: ['n8n', 'Typeform', 'Airtable', 'Slack']
                 },
                 {
